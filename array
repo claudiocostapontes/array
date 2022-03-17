@@ -1,0 +1,19 @@
+<!DOCTYPEhtml >
+< html  lang =" pt-BR " >
+< cabeça >
+    < meta  charset =" utf-8 " >
+    < meta  name =" viewport " content =" largura=largura do dispositivo, escala inicial=1.0 " >
+    < script  type =" text/javascript " src =" js/angular-1.6.1/angular.js " > </ script >
+    < script  type =" text/javascript " src =" js/angular-1.6.1/i18n/angular-locale_pt-br.js " > </ script >
+    < title > Array AngularJS </ title >
+</ cabeça >
+
+< corpo >
+    < div  ng-app ="" ng-init =" numeros=[20,30,40,50] " >
+        Testando um array na posição 0: {{numeros[0]}} < br >
+        Testando um array na posição 1: {{numeros[1]}} < br >
+        Testando um array na posição 2: {{numeros[2]}} < br >
+        Testando um array na posição 3: {{numeros[3]}}
+    </ div >
+</ corpo >
+</ html > 
